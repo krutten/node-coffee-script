@@ -1,7 +1,16 @@
 {
   "name": "node-coffee-script",
   "version": "0.0.1",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
-    "express": "2.5.0"
+    "express": ">=2.5.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "scripts": {
+    "prepublish": "coffee -c app.coffee"
   }
 }
