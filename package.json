@@ -2,7 +2,7 @@
   "name": "node-coffee-script",
   "version": "0.0.1",
   "engines": {
-    "node": "0.10.x"
+    "node": "~4.2.1"
   },
   "dependencies": {
     "express": "=2.5.0"
